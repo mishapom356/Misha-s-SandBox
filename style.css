@@ -1,0 +1,19 @@
+#cat1{
+	color:red;
+	transform: scale(1.0);
+	transition: 1s all;
+}
+
+#cat2{
+	color:green;
+	transform: scale(1.0);
+	transition: 1s all;
+}
+
+#cat1:hover{
+	transform: rotate(180deg) scale(1.0);
+}
+
+#cat2:hover{
+	transform: rotate(180deg) scale(1.0);
+}
