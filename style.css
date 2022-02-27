@@ -1,19 +1,20 @@
-#cat1{
-	color:red;
+.cat{
 	transform: scale(1.0);
 	transition: 1s all;
 }
 
-#cat2{
-	color:green;
-	transform: scale(1.0);
-	transition: 1s all;
-}
-
-#cat1:hover{
+.cat:hover{
 	transform: rotate(180deg) scale(1.0);
 }
 
-#cat2:hover{
-	transform: rotate(180deg) scale(1.0);
+#bit{
+	color:#FF0000;
+}
+
+#kak{
+	color:#27C81B;
+}
+
+#pak{
+	color:#1700C8;
 }
